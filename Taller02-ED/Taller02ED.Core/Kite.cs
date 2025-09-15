@@ -15,6 +15,7 @@ namespace Taller02ED.Core
         public Kite(string name, double a, double b, double d1, double d2) : base(name, a, d1, d2)
         {
             B = ValidateB(b);
+            Name = name;
         }
 
         public override double GetPerimeter()

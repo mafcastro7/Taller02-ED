@@ -22,6 +22,7 @@ namespace Taller02ED.Core
         {
             D1 = ValidateD1(d1);
             D2 = ValidateD2(d2);
+            Name = name;
         }
 
         public override double GetArea()

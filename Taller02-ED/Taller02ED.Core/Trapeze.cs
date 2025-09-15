@@ -14,6 +14,7 @@ namespace Taller02ED.Core
         public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a, b, c, h)
         {
             D = ValidateD(d);
+            Name = name;
         }
 
         public override double GetArea()

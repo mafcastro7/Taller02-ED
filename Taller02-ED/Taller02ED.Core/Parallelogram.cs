@@ -15,6 +15,7 @@ namespace Taller02ED.Core
         public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
         {
             H = ValidateH(h);
+            Name = name;
         }
 
         public override double GetArea()

@@ -15,6 +15,7 @@ namespace Taller02ED.Core
         public Rectangle(string name, double a, double b) : base(name, a)
         {
             B = ValidateB(b);
+            Name = "Rectangle";
         }
 
         public override double GetArea()
